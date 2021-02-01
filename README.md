@@ -16,9 +16,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 Link the contents of this repo:
 ```sh
-ln -s ~/coding/config/zsh/.oh-my-zsh/custom/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
-ln -s ~/coding/config/zsh/.zshrc ~/.zshrc
-ln -s ~/coding/config/zsh/.p10k.zsh ~/.p10k.zsh
+ln -s zshconfig/.oh-my-zsh/custom/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+ln -s zshconfig/.zshrc ~/.zshrc
+ln -s zshconfig/.p10k.zsh ~/.p10k.zsh
 ```
 Pull zsh-autosuggestions:
 ```sh
@@ -28,6 +28,7 @@ Install the Sauce Code Pro Semibold Nerd Font Mono:
 ```sh
 wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/SourceCodePro/Semibold/complete/Sauce%20Code%20Pro%20Semibold%20Nerd%20Font%20Complete%20Mono.ttf --directory-prefix=~/.local/share/fonts
 ```
+Change your Terminal emulators font to the Sauce Code Pro Semibold Mono font.
 Install fuzzy search:
 ```sh
 sudo apt install ripgrep fd-find silversearcher-ag
