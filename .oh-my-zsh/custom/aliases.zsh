@@ -9,6 +9,9 @@ alias ohmyzsh="nvim $HOME/.oh-my-zsh"
 alias zshalias="nvim $HOME/.oh-my-zsh/custom/aliases.zsh"
 alias zshsource="source $HOME/.zshrc"
 
+# Alias for faster sudo edits
+alias se="sudoedit"
+
 # Aliases for apt usage
 alias ad="sudo apt-get update"
 alias adg="sudo apt-get update && sudo apt-get upgrade"
