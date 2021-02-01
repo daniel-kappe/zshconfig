@@ -1,0 +1,16 @@
+[core]
+  editor = nvim
+  excludefile = ~/.gitignore_global
+  autocrlf = input
+[commit]
+  template = ~/.gitmessage
+[user]
+	email = daniel.kappe@fh-bielefeld.de
+	name = Daniel Kappe
+  signingkey = <gpg --list-keys>
+[color]
+	ui = true
+[alias]
+  dfs = diff --staged
+  logg = log --graph --decorate --oneline --all
+	praise = blame

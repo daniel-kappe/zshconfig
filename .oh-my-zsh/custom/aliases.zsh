@@ -9,11 +9,10 @@ alias ohmyzsh="nvim $HOME/.oh-my-zsh"
 alias zshalias="nvim $HOME/.oh-my-zsh/custom/aliases.zsh"
 alias zshsource="source $HOME/.zshrc"
 
-# Suffix aliases
-alias -g ecs-dev="dkappe@ecs-dev"
-alias -g ilias-dev="dkappe@ilias-dev"
-alias -g ecs-test="dvz@ecs-test.fh-bielefeld.de"
-alias -g ecs="dvz@ecs.fh-bielefeld.de"
+# Aliases for apt usage
+alias ad="sudo apt-get update"
+alias adg="sudo apt-get update && sudo apt-get upgrade"
+alias aau="sudo apt-get autoremove"
 
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
