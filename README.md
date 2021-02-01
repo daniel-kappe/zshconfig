@@ -2,9 +2,23 @@
 My custom zsh configuration. Install and enjoy.
 
 ## Installation
-Copy the content into your home directory:
+Install zsh:
 ```sh
-cp . ~/
+sudo apt install zsh
+```
+Change Shell to zsh:
+```sh
+chsh -s /usr/bin/zsh
+```
+Install oh-my-zsh:
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Link the contents of this repo:
+```sh
+ln -s ~/coding/config/zsh/.oh-my-zsh/custom/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+ln -s ~/coding/config/zsh/.zshrc ~/.zshrc
+ln -s ~/coding/config/zsh/.p10k.zsh ~/.p10k.zsh
 ```
 Pull zsh-autosuggestions:
 ```sh
