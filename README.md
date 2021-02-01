@@ -46,7 +46,7 @@ Change your Terminal emulators font to the Sauce Code Pro Semibold Mono font.
 Install fuzzy search:
 
 ```sh
-sudo apt install fzf ripgrep fd-find silversearch-ag
+sudo apt install fzf ripgrep fd-find silversearcher-ag
 ```
 
 Get Powerlevel 10k:
