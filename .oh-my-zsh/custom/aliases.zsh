@@ -11,6 +11,7 @@ alias zshsource="source $HOME/.zshrc"
 
 # Alias for faster sudo edits
 alias se="sudoedit"
+alias sn="sudo -E nvim"
 
 # Aliases for apt usage
 alias ad="sudo apt-get update"
